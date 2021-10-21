@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: "Raleway";
 }
 
 .wrapper{
@@ -142,3 +143,5 @@
   .footer .links-copyright-box .copyright{
       margin-top: 7px;
   }
+
+ 
