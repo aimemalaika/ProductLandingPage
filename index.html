@@ -27,26 +27,26 @@
 </head>
 
 <body>
-   <div class="container-fluid my-4">
+   <div class="container-fluid header-fixed position-fixed">
         <header id="header" class="row">
             <div class="col-md-3 col-lg-3 col-sm-12 my-3">
                 <img id="header-img" src="./images/product-landing-page-logo.png" class="col-12" alt="">
             </div>
             <div class="col-md-9 col-sm-12 my-3">
                 <nav id="nav-bar" class="d-flex flex-row-reverse ">
-                    <a class="nav-link fw-bold text-dark" href="">Pricing</a>
-                    <a class="nav-link fw-bold text-dark" href="">How It Works</a>
+                    <a class="nav-link fw-bold text-dark" href="#pricing">Pricing</a>
+                    <a class="nav-link fw-bold text-dark" href="#video-tutorial">How It Works</a>
                     <a class="nav-link fw-bold text-dark" href="#features">Features</a>
                 </nav>
             </div>
         </header>
     </div>
 
-    <div class="container my-5">
+    <div class="container marged-top">
         <h3 class="text-center">Handcrafted, home-made masterpieces</h3>
         <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
             <div class="col-md-5 mx-auto my-4">
-                <input type="email" id="email" placeholder="Please enter your email" class="form-control">
+                <input name="email" type="email" id="email" placeholder="Please enter your email" class="form-control">
             </div>
             <div class="col-md-3 mx-auto text-center">
                 <input type="submit" id="submit" class="btn btn-warning text-uppercase fw-bold" value="Get started">
@@ -82,15 +82,15 @@
   <!-- wrapper -->
     <div class="wrapper">
         <!-- Youtube section -->
-        <div class="youtube-video">
+        <div class="youtube-video" id="video-tutorial">
             <div class="iframe-box">
                 <div class="main-container">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <iframe id="video" class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                 </div>
             </div>
         </div>
         <!-- cards-section -->
-        <div class="cards-section">
+        <div class="cards-section" id="pricing">
             <!-- card 1 -->
             <div class="card">
                 <div class="card-header">TENOR TROMBONE</div>

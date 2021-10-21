@@ -144,4 +144,9 @@
       margin-top: 7px;
   }
 
- 
+.header-fixed{
+    top: 1%;
+}
+.marged-top{
+    margin-top: 10% !important;
+}
