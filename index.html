@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+      />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,200&display=swap"
+            rel="stylesheet" />
 </head>
+
 <body>
-    Hello World 
+    <div class="container-fluid my-4">
+        <header id="header" class="row">
+            <div class="col-md-3 col-lg-3 col-sm-12 my-3">
+                <img id="header-img" src="./images/product-landing-page-logo.png" class="col-12" alt="">
+            </div>
+            <div class="col-md-9 col-sm-12 my-3">
+                <nav id="nav-bar" class="d-flex flex-row-reverse ">
+                    <a class="nav-link fw-bold text-dark" href="">Pricing</a>
+                    <a class="nav-link fw-bold text-dark" href="">How It Works</a>
+                    <a class="nav-link fw-bold text-dark" href="#features">Features</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="container my-5">
+        <h3 class="text-center">Handcrafted, home-made masterpieces</h3>
+        <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="col-md-5 mx-auto my-4">
+                <input type="email" id="email" placeholder="Please enter your email" class="form-control">
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <input type="submit" id="submit" class="btn btn-warning text-uppercase fw-bold" value="Get started">
+            </div>
+        </form>
+    </div>
+
+    <div id="features" class="container my-5">
+        <div class="col-md-9 mx-auto">
+            <div class="row col-12 my-4 py-4">
+                <div class="col-1 text-warning pt-4"><i class="fa fa-3x fa-fire"></i></div>
+                <div class="col-11">
+                    <h1>Premium Materials</h1>
+                    <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+                </div>
+            </div>
+            <div class="row col-12 my-4 py-4">
+                <div class="col-1 text-warning pt-4"><i class="fa fa-3x fa-truck"></i></div>
+                <div class="col-11">
+                    <h1>Fast Shipping</h1>
+                    <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+                </div>
+            </div>
+            <div class="row col-12 my-4 py-4">
+                <div class="col-1 text-warning pt-4"><i class="fa fa-3x fa-battery-full"></i></div>
+                <div class="col-11">
+                    <h1>Quality Assurance</h1>
+                    <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
